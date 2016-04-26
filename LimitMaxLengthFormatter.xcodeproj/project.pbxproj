@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B994DE7C1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B994DE7B1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.m */; };
+		B994DE7F1CCF7B33006BFCDC /* NegaToRedFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B994DE7E1CCF7B33006BFCDC /* NegaToRedFormatter.m */; };
+		B994DE821CCFB2F4006BFCDC /* AddUnitFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B994DE811CCFB2F4006BFCDC /* AddUnitFormatter.m */; };
 		B9F6363A1CCD71D000C86AB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F636391CCD71D000C86AB2 /* AppDelegate.m */; };
 		B9F6363D1CCD71D000C86AB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6363C1CCD71D000C86AB2 /* main.m */; };
 		B9F6363F1CCD71D000C86AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F6363E1CCD71D000C86AB2 /* Assets.xcassets */; };
 		B9F636421CCD71D100C86AB2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F636401CCD71D100C86AB2 /* MainMenu.xib */; };
+		B9F6364B1CCD725800C86AB2 /* MaxLenxFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6364A1CCD725800C86AB2 /* MaxLenxFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B994DE7A1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxLenxFormatterAllowInput.h; sourceTree = "<group>"; };
+		B994DE7B1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxLenxFormatterAllowInput.m; sourceTree = "<group>"; };
+		B994DE7D1CCF7B33006BFCDC /* NegaToRedFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NegaToRedFormatter.h; sourceTree = "<group>"; };
+		B994DE7E1CCF7B33006BFCDC /* NegaToRedFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NegaToRedFormatter.m; sourceTree = "<group>"; };
+		B994DE801CCFB2F3006BFCDC /* AddUnitFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddUnitFormatter.h; sourceTree = "<group>"; };
+		B994DE811CCFB2F4006BFCDC /* AddUnitFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddUnitFormatter.m; sourceTree = "<group>"; };
 		B9F636351CCD71D000C86AB2 /* LimitMaxLengthFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitMaxLengthFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F636381CCD71D000C86AB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9F636391CCD71D000C86AB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +31,8 @@
 		B9F6363E1CCD71D000C86AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9F636411CCD71D100C86AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B9F636431CCD71D100C86AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F636491CCD725800C86AB2 /* MaxLenxFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxLenxFormatter.h; sourceTree = "<group>"; };
+		B9F6364A1CCD725800C86AB2 /* MaxLenxFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxLenxFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,14 @@
 			children = (
 				B9F636381CCD71D000C86AB2 /* AppDelegate.h */,
 				B9F636391CCD71D000C86AB2 /* AppDelegate.m */,
+				B9F636491CCD725800C86AB2 /* MaxLenxFormatter.h */,
+				B9F6364A1CCD725800C86AB2 /* MaxLenxFormatter.m */,
+				B994DE7A1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.h */,
+				B994DE7B1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.m */,
+				B994DE7D1CCF7B33006BFCDC /* NegaToRedFormatter.h */,
+				B994DE7E1CCF7B33006BFCDC /* NegaToRedFormatter.m */,
+				B994DE801CCFB2F3006BFCDC /* AddUnitFormatter.h */,
+				B994DE811CCFB2F4006BFCDC /* AddUnitFormatter.m */,
 				B9F6363E1CCD71D000C86AB2 /* Assets.xcassets */,
 				B9F636401CCD71D100C86AB2 /* MainMenu.xib */,
 				B9F636431CCD71D100C86AB2 /* Info.plist */,
@@ -140,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B994DE7F1CCF7B33006BFCDC /* NegaToRedFormatter.m in Sources */,
+				B994DE821CCFB2F4006BFCDC /* AddUnitFormatter.m in Sources */,
 				B9F6363D1CCD71D000C86AB2 /* main.m in Sources */,
 				B9F6363A1CCD71D000C86AB2 /* AppDelegate.m in Sources */,
+				B9F6364B1CCD725800C86AB2 /* MaxLenxFormatter.m in Sources */,
+				B994DE7C1CCF508D006BFCDC /* MaxLenxFormatterAllowInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -234,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -247,6 +271,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LimitMaxLengthFormatter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sao.LimitMaxLengthFormatter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -259,6 +284,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LimitMaxLengthFormatter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sao.LimitMaxLengthFormatter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -283,6 +309,7 @@
 				B9F636481CCD71D100C86AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
