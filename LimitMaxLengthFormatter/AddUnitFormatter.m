@@ -31,8 +31,7 @@
 
 - (BOOL)isPartialStringValid:(NSString *)partialString newEditingString:(NSString *__autoreleasing  _Nullable *)newString errorDescription:(NSString *__autoreleasing  _Nullable *)error{
     NSCharacterSet *inputChrSet = [NSCharacterSet characterSetWithCharactersInString:partialString];
-    NSCharacterSet *numChr = [NSCharacterSet characterSetWithCharactersInString:@"1234567890,."];
-    if (![numChr isSupersetOfSet:inputChrSet]) {
+    if (![[NSCharacterSet decimalDigitCharacterSet] isSupersetOfSet:inputChrSet]) {
         return NO;
     }
     return YES;
