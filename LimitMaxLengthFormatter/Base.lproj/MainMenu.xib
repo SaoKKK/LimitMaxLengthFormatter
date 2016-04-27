@@ -17,7 +17,7 @@
                 <outlet property="txtField1" destination="KZR-Pf-OSS" id="N1w-4u-tsS"/>
                 <outlet property="txtField2" destination="pxX-p7-abz" id="sn0-b5-cJV"/>
                 <outlet property="txtField3" destination="nCB-6k-gqA" id="URd-2a-xpU"/>
-                <outlet property="txtField4" destination="aW9-vU-2wi" id="yNE-d3-Ktu"/>
+                <outlet property="txtField4" destination="wtB-ZC-8vM" id="MMk-s3-ur9"/>
                 <outlet property="txtField6" destination="QSV-hx-L6j" id="Fu4-hG-PNz"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -675,14 +675,16 @@
         <window title="LimitMaxLengthFormatter" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="274" height="111"/>
+            <rect key="contentRect" x="335" y="390" width="508" height="197"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <value key="minSize" type="size" width="508" height="197"/>
+            <value key="maxSize" type="size" width="508" height="197"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="274" height="111"/>
+                <rect key="frame" x="0.0" y="0.0" width="508" height="197"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" id="KZR-Pf-OSS">
-                        <rect key="frame" x="20" y="72" width="114" height="19"/>
+                        <rect key="frame" x="125" y="136" width="114" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="vwf-YN-D2P">
                             <font key="font" metaFont="smallSystem"/>
@@ -691,7 +693,7 @@
                         </textFieldCell>
                     </textField>
                     <secureTextField verticalHuggingPriority="750" id="pxX-p7-abz">
-                        <rect key="frame" x="20" y="45" width="114" height="19"/>
+                        <rect key="frame" x="374" y="138" width="114" height="19"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <secureTextFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="bk5-wg-2r4">
                             <font key="font" metaFont="smallSystem"/>
@@ -702,8 +704,53 @@
                             </allowedInputSourceLocales>
                         </secureTextFieldCell>
                     </secureTextField>
+                    <textField verticalHuggingPriority="750" id="QSV-hx-L6j">
+                        <rect key="frame" x="259" y="45" width="229" height="19"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" allowsEditingTextAttributes="YES" id="6Wt-7a-Pih">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="qzh-vF-A3w">
+                        <rect key="frame" x="18" y="163" width="197" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="字数制限フォーマッタ（入力不可タイプ）" id="xaf-jz-P4R">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="5cy-SY-Uvh">
+                        <rect key="frame" x="18" y="138" width="111" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="テキストフィールド：" id="LlG-Zz-O3u">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="UFr-qH-H8z">
+                        <rect key="frame" x="245" y="139" width="126" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="セキュリティフィールド：" id="LxV-O3-oSf">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="DTw-he-yPB">
+                        <rect key="frame" x="18" y="108" width="197" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="字数制限フォーマッタ（入力可タイプ）" id="wUk-7U-cLh">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                     <textField verticalHuggingPriority="750" id="nCB-6k-gqA">
-                        <rect key="frame" x="142" y="72" width="114" height="19"/>
+                        <rect key="frame" x="125" y="81" width="114" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Ewg-Ua-kwY">
                             <font key="font" metaFont="smallSystem"/>
@@ -711,8 +758,63 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <secureTextField verticalHuggingPriority="750" id="wtB-ZC-8vM">
+                        <rect key="frame" x="374" y="81" width="114" height="19"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <secureTextFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="lA0-rC-bQi">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                        </secureTextFieldCell>
+                    </secureTextField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="hpY-Rx-94p">
+                        <rect key="frame" x="18" y="81" width="111" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="テキストフィールド：" id="edw-n3-MNm">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="kTr-70-u9D">
+                        <rect key="frame" x="245" y="82" width="126" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="セキュリティフィールド：" id="KgO-Lz-TgE">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="gcf-nH-nJV">
+                        <rect key="frame" x="0.0" y="70" width="508" height="5"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <font key="titleFont" metaFont="system"/>
+                    </box>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="xrk-4U-nNn">
+                        <rect key="frame" x="18" y="45" width="238" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="指定値を超えた場合赤字で表示するフォーマッタ：" id="2m8-kb-YYm">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="6XZ-ea-gnc">
+                        <rect key="frame" x="18" y="20" width="238" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="入力中は単位や位取りを隠すフォーマッタ：" id="pQI-LT-iqs">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                     <textField verticalHuggingPriority="750" id="Ip7-CU-c1p">
-                        <rect key="frame" x="20" y="18" width="114" height="19"/>
+                        <rect key="frame" x="259" y="20" width="229" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3SF-RV-yiI">
                             <customFormatter key="formatter" id="XQB-ny-SMY" customClass="AddUnitFormatter"/>
@@ -721,28 +823,9 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="QSV-hx-L6j">
-                        <rect key="frame" x="142" y="18" width="114" height="19"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" allowsEditingTextAttributes="YES" id="6Wt-7a-Pih">
-                            <font key="font" metaFont="smallSystem"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" id="aW9-vU-2wi">
-                        <rect key="frame" x="142" y="45" width="112" height="19"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="XIl-i2-fTs">
-                            <customFormatter key="formatter" id="gAw-zf-DlL"/>
-                            <font key="font" metaFont="smallSystem"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="177" y="234.5"/>
+            <point key="canvasLocation" x="171" y="203.5"/>
         </window>
     </objects>
 </document>
